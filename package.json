@@ -1,0 +1,21 @@
+{
+  "name": "folders_manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvallejor/folders_manager.git"
+  },
+  "author": "Juan David Vallejo Restrepo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdvallejor/folders_manager/issues"
+  },
+  "homepage": "https://github.com/jdvallejor/folders_manager#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
