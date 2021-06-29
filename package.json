@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",
@@ -16,6 +19,16 @@
   },
   "homepage": "https://github.com/jdvallejor/folders_manager#readme",
   "devDependencies": {
-    "jest": "^27.0.4"
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.4",
+    "prettier": "^2.3.2"
   }
 }
